@@ -1,0 +1,11 @@
+/*estilos del footer*/
+
+footer{
+    background-color: #000000;
+}
+.footerText{
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #3d494d;
+}

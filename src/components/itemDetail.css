@@ -1,0 +1,11 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    
+}
+.imgDefault{
+    width: 18rem;
+    margin: 1.3rem 26rem;    
+}
+
+
