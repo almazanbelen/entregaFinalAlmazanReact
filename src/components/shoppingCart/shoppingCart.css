@@ -7,13 +7,10 @@
 
 /*estilos del carrito de compras*/
 .shoppingCart{
-    background-color: #91A9B0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    
+    background-color: #91A9B0;  
 }
+
 .carrito{
     font-size: 2rem;
-    margin: 1.2rem;
+    margin-top: 1rem;
 }

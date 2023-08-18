@@ -1,4 +1,4 @@
-import Imagen from "../assets/Imagen.png"
+import Imagen from "../../assets/Imagen.png"
 import "./itemListOutstanding.css"
 
 function ItemListOutstanding({title}){

@@ -1,0 +1,33 @@
+.isEmpty{
+    height: auto;
+    color: #b8cad0;    
+    text-align: center;
+    margin: 3rem;
+    padding-top: 10rem;
+}
+
+.titleEmpty{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.shop{
+    color: #b8cad0;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.cartProducts{
+    height: auto;
+    margin: 5rem;
+}
+
+.total{
+    color: #b8cad0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+}

@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ImagenPanoram from "../assets/ImagenPanoram.png"
-import ItemListOutstanding from './ItemListOutstanding'
+import ImagenPanoram from "../../assets/ImagenPanoram.png"
+import ItemListOutstanding from '../itemListOut/ItemListOutstanding'
 import './home.css'
 import { Link } from 'react-router-dom';
 

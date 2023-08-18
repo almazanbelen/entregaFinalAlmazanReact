@@ -1,5 +1,5 @@
 .bannerTop{
-    width: 70rem;
+    width: auto;
     height: 3rem;
     background: #8aa0a7; 
 }
@@ -44,5 +44,5 @@
 }
 
 .more:hover{
-  color: black;
+  color: #b8cad0;
 }

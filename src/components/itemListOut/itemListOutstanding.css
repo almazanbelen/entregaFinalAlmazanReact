@@ -1,9 +1,6 @@
-/* esilos de las cart*/
+/* esilos de las card destacadas*/
 
 .cartDescription{
-    display: flex;
-    flex-direction: column;
-    background: black;
     width: 17rem;
     height: 27rem;
     margin: 1rem;
@@ -11,18 +8,15 @@
     border-color: #b8cad0;
     box-shadow: 4px 4px 15px #4a5053;  
 }
+
 .imgDefault{
-    margin: 1.3rem;
+    width: 14rem;
+    
 }
 
 .productName{
-    margin: 0.8rem;
+    margin: 1rem;
     text-align: center;
     color: #b8cad0;
-    font-size: 1.1rem;
-}
-
-.button{
-    margin: 0.5rem 3.6rem;
-    align-self: center;
+    font-size: 1rem;
 }

@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Link} from "react-router-dom";
-import ShoppingCart from "./ShoppingCart"
+import ShoppingCart from "../shoppingCart/ShoppingCart"
 
-import LogoHome from "../assets/LogoHome.png"
+import LogoHome from "../../assets/LogoHome.png"
 
 //menu de navegacion con sus estilos incorporados
 function NavBar() {
@@ -19,9 +19,9 @@ function NavBar() {
           <Nav className="me-auto" style={{fontSize: 18, fontWeight: "bold", gap: 10}}>
             <Nav.Link style={{marginTop: 20}} as={Link} to="/terapias">Terapias</Nav.Link>
             <Nav.Link style={{marginTop: 20}} as={Link} to="/productos">Productos</Nav.Link>
-            <Nav.Link style={{marginTop: 20}} as={Link} to="/contacto">Contacto</Nav.Link>
-            <ShoppingCart/>
-          </Nav>        
+            <Nav.Link style={{marginTop: 20}} as={Link} to="/contacto">Contacto</Nav.Link> 
+          </Nav>
+          <ShoppingCart/>   
         </Container>
       </Navbar>  
           
